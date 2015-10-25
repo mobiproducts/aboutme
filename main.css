@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body{
+  margin: 0;
+  
+}
+
+
+.navbar-container{
+  background-color: black;
+}
+.navbar.container .navbar-default .container-fluid .navbar-header .navbar-brand {
+    color: #FE3680;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial, cursive;
+    /*ToDo How to override bootstrap font*/
+}
+ 
+.btn-xl {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+
+header {
+    background-image: url('http://i.imgur.com/B5t4Kmo.jpg');
+    background-repeat: none;   
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff
+}
+
+header .intro-text {
+    padding: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    /*Need to override bootstrap*/
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 39px;
+}
+
+header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
+
+
+@media (min-width: 768px) {
+    header .intro-text {
+        padding-top:200px;
+        padding-bottom: 200px
+    }
+
+    header .intro-text .intro-lead-in {
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px
+    }
+
+    header .intro-text .intro-heading {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px
+    }
+
+}
+
+.introduction-section,
+.location-section,
+.question-section{
+  text-align: center;
+  padding: 5em;
+  font-size: .7em;
+}
+p{
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color:grey;
+}
+
+
+.location-section{
+  background: orange;  
+}
+
+.question-section{
+  background: #EBDD88;
+}
+
+@media (min-width: 768px) {
+  .introduction-section,
+  .location-section,
+  .question-section{
+    text-align: center;
+    padding: 5em;
+    font-size: 1em;
+  }
+  p{
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    color:grey;
+  }
+}
+footer, 
+footer .container, 
+footer .container .row{
+	/* Layout Declarations */
+  color: white;
+	
+	/* Appearance Rules */
+	background-color: black;  
+}
+
+
+footer .container .row{
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-size: large;
+    padding: 35px;
+}
+
+.panel-group{
+  width: 60%;
+  margin: auto;
+}
+
+.location-image{
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+i{
+  font-size: 50px;
+} 
+
